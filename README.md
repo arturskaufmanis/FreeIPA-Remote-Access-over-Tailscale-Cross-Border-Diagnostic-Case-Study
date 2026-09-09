@@ -3,7 +3,7 @@
 **Project:** UK–Latvia Homelab (`latvia-server`)
 **Category:** Identity Management / VPN Networking / DNS
 **Stack:** Rocky Linux · FreeIPA · BIND (`named`) · Tailscale (MagicDNS, Split DNS, Exit Node) · firewalld · Apache (mod_auth_gssapi)
-
+[image with the result] (images/1 (1).jpg)
 ## Summary
 
 `latvia-server` runs FreeIPA for identity management as part of a two-site UK–Latvia homelab. The FreeIPA web UI (`https://latvia-server.lab.lan/ipa/ui/`) was reliably accessible from a PC on the local Latvian LAN, but completely unreachable from a mobile device connecting remotely over Tailscale — both on mobile data and Wi-Fi, in the UK.
